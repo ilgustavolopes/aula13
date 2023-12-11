@@ -1,0 +1,25 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+/*botao1*/
+.botao1{
+    width:200px;
+    height:50px;
+    border-radius: 50px;
+    background-color: green;
+    color:aliceblue;
+    text-decoration:none;
+}
+.botao1:hover{
+    background:lightgreen;
+    text-decoration:none;
+}
+.container{
+    height:500px;
+    width:100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;    
+}

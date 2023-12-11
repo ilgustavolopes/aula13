@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Ex8.css">
+</head>
+<body>
+<h1>Form Name</h1>
+    <div class="container">
+        <form name="Formulario" action="testeform.txt" method="get" target="_blank"> <br>
+            Nome: <input type="text" name="fname"> <br>
+            help <br> <br>
+            Data de Nascimento: <input type="text" name="lname"> <br>
+            help<br> <br>
+            Endereço:<input type="text"> <br>
+            help<br> <br>
+            Cidade:<input type="text"> <br>
+            help<br> <br>
+            Estado:<select name="Estado">
+                        <option value="Estado">São Paulo</option>
+                        <option value="Estado">Rio de Janeiro</option>
+                        <option value="Estado">Espirito Santo</option>
+                    </select>
+            <br> <br>
+            Sexo:<select name="Sexo">
+                    <option value="Sexo">Masculino</option>
+                    <option value="Sexo">Feminino</option>
+                </select>
+                <br> <br>
+            Bens Pessoais:
+                <br>
+                <input type="checkbox" name="benspessoais">Casa<br>
+                <input type="checkbox" name="benspessoais">Carro<br>
+                <input type="checkbox" name="benspessoais">Joias<br>
+                Digite sua avaliação:<br>
+                <textarea name="opiniao" rows="5" cols="40"></textarea><br>
+                <input class="button1" type="submit" value="Enviar">
+                <input class="button2"type="reset" value="Limpar">
+        </form>
+    </div>
+</body>
+</html>

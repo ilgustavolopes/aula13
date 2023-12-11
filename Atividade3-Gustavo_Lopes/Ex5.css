@@ -1,0 +1,26 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+   background-image: url(imagens/cachorro.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+/*txt*/
+.txt{
+     border: solid  5px black;
+     background:white;
+     padding:20px;
+     color:black;
+     height:100px;
+     width:160px;
+}
+.container{
+    height:1000px;
+    width:100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}

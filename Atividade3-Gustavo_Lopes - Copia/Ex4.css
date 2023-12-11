@@ -1,0 +1,27 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+ }
+ body{
+     margin:10px;
+ }
+ /*titulo*/
+ .titulo{
+     text-align: center;
+ }
+ /*texto*/
+ .texto{
+     margin-top:10px;
+     text-align: center;
+ }
+ /*propaganda*/
+ .propaganda{
+     border:5px;
+     padding:50px;
+     width:150px;
+     background:black;
+     color:white;
+     position:fixed;
+     margin-top:200px;
+ }

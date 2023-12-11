@@ -1,0 +1,27 @@
+body{
+    background-color:gray;
+}
+/*titulo*/
+.titulo{
+    border: outset rgb(136, 149, 161);
+    padding:15px;
+    width:500px;
+    text-align: center;
+    color:white;
+}
+/*texto*/
+.texto{
+    border: dotted 2px white;
+    padding:15px;
+    width:500px;
+    text-align:center;
+    color:white;
+}
+/*container*/
+.container{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction:column;
+    gap: 20px;
+}
